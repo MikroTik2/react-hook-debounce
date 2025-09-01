@@ -6,16 +6,16 @@ Useful when you need to delay state updates (e.g., while typing in an input fiel
 ## Installation
 
 ```bash
-npm install use-debounce-hook
+npm install react-hook-debounce
 # or
-yarn add use-debounce-hook
+yarn react-hook-debounce
 ```
 
 ## Usage
 
 ```typescript
        import React, { useState } from "react";
-       import { useDebounce } from "use-debounce-hook";
+       import { useDebounce } from "react-hook-debounce";
 
        export default function MyComponent() {
               const [value, setValue] = useState("");
