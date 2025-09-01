@@ -1,0 +1,7 @@
+src/
+.idea/
+node_modules/
+*.log
+*.tsbuildinfo
+tests/
+coverage/

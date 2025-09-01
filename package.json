@@ -1,0 +1,40 @@
+{
+  "name": "react-hook-debounce",
+  "version": "1.0.0",
+  "description": "A lightweight React hook for debouncing values or callbacks.",
+  "author": {
+    "name": "Артур Доценко",
+    "url": "https://docenko.vercel.app"
+  },
+  "contributors": [
+    {
+      "name": "Артур Доценко",
+      "email": "dotsenk20034@gmail.com"
+    }
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "debounce",
+    "useDebounce"
+  ],
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/MikroTik2/react-hook-debounce",
+  "repository": "git@github.com:MikroTik2/react-hook-debounce.git",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.7.0"
+  }
+}
