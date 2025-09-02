@@ -1,4 +1,4 @@
-# use-debounce-hook
+# react-hook-debounce
 
 A simple and lightweight React hook for **debouncing values**.  
 Useful when you need to delay state updates (e.g., while typing in an input field) to avoid unnecessary operations (API requests, filtering, etc.).
@@ -43,5 +43,6 @@ yarn react-hook-debounce
 - **`delay?: number`** *(default `500`)* — the delay in milliseconds before the returned value updates if no new changes occur.  
 
 ### Returns
+
 
 - **`T`** — the debounced (stabilized) value.
